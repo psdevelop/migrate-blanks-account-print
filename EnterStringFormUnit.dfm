@@ -1,0 +1,39 @@
+object EnterStringForm: TEnterStringForm
+  Left = 0
+  Top = 0
+  Caption = #1042#1074#1086#1076' '#1089#1090#1088#1086#1082#1086#1074#1086#1075#1086' '#1079#1085#1072#1095#1077#1085#1080#1103
+  ClientHeight = 80
+  ClientWidth = 401
+  Color = clBtnFace
+  Constraints.MaxHeight = 118
+  Constraints.MaxWidth = 417
+  Constraints.MinHeight = 118
+  Constraints.MinWidth = 417
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  KeyPreview = True
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  OnKeyDown = FormKeyDown
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object StringEdit: TEdit
+    Left = 24
+    Top = 24
+    Width = 345
+    Height = 26
+    CharCase = ecUpperCase
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    OnKeyDown = StringEditKeyDown
+  end
+end
